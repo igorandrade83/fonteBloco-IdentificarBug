@@ -1,0 +1,121 @@
+{
+  "customId": "alunoCustom",
+  "queryName": "Aluno Custom",
+  "sourceType": "blockly",
+  "baseEntity": "app.entity.Aluno",
+  "blockly": {
+    "type": "server",
+    "blocklyMethod": "Obter",
+    "blocklyClass": "blockly.Aluno",
+    "blocklyLanguage": "java",
+    "blocklyParams": [],
+    "blocklyJson": {
+      "namespace": "blockly.Aluno",
+      "sourcePath": "src/main/java/blockly/Aluno.blockly",
+      "language": "java",
+      "methods": [
+        {
+          "name": "Obter",
+          "hasReturn": "true",
+          "params": []
+        },
+        {
+          "name": "Atualizar",
+          "hasReturn": "true",
+          "params": [
+            "aluno\u0026lt;app.entity.Aluno\u0026gt;"
+          ]
+        },
+        {
+          "name": "Inserir",
+          "hasReturn": "true",
+          "params": [
+            "x",
+            "x0"
+          ]
+        },
+        {
+          "name": "Remover",
+          "hasReturn": "true",
+          "params": [
+            "idAluno"
+          ]
+        }
+      ]
+    },
+    "blocklyGETMethod": "Obter",
+    "blocklyPOSTMethod": "Inserir",
+    "blocklyPUTMethod": "Atualizar",
+    "blocklyDELETEMethod": "Remover",
+    "blocklyFILTERMethod": "Obter",
+    "blocklyCOUNTMethod": "Obter"
+  },
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "name": null,
+    "matricula": null
+  },
+  "defaultValuesProperties": {
+    "id": {
+      "key": true,
+      "nullable": false,
+      "type": "String"
+    },
+    "name": {
+      "key": false,
+      "nullable": true,
+      "type": "String"
+    },
+    "matricula": {
+      "key": false,
+      "nullable": true,
+      "type": "String"
+    }
+  },
+  "security": {
+    "id": null,
+    "name": null,
+    "matricula": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query293515/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
